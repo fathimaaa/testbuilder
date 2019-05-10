@@ -19,7 +19,7 @@ export default class RuleGroup extends React.Component {
         const level = getLevel(this.props.id);
 
         return (
-            <div className={`ruleGroup ${classNames.ruleGroup}` + (isRuleGroupMinified ? " hideBgBorder" : "")}>
+            <div className={"ruleGroup " + classNames.ruleGroup + (isRuleGroupMinified ? " hideBgBorder" : "")}>
 
                 {isRuleGroupMinified ?
                     <div className={("rule-group-minified") + ((combinator === 'and') ? " bg-darkGreen" : " bg-orange")} onClick={this.toggleRuleGroupView.bind(this, false)}>

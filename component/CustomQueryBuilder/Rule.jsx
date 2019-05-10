@@ -16,7 +16,7 @@ export default class Rule extends React.Component {
         const { isRuleMinified, field, operator, value, translations, schema: { fields, controls, getOperators, getLevel, classNames } } = this.props;
         var level = getLevel(this.props.id);
         return (
-            <div className={`rule ${classNames.rule}`}>
+            <div className={"rule " + classNames.rule}>
 
                 {isRuleMinified ?
                     <div className="rule-minified" onClick={this.onToggleRuleView.bind(this, false)}>

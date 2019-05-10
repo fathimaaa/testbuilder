@@ -205,7 +205,7 @@ export default class QueryBuilder extends React.Component {
         const { root: { id, rules, combinator, groupName, isRuleGroupMinified }, schema } = this.state;
         const { translations } = this.props;
         return (
-            <div className={`queryBuilder ${schema.classNames.queryBuilder}`}>
+            <div className={"queryBuilder " + schema.classNames.queryBuilder}>
                 <RuleGroup
                     translations={translations}
                     rules={rules}
