@@ -1,0 +1,22 @@
+{
+  "name": "react-test-query-builder",
+  "version": "1.0.0",
+  "description": "This is a test npm package - Might contain bugs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fathimaaa/testbuilder.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Fathima OB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fathimaaa/testbuilder/issues"
+  },
+  "homepage": "https://github.com/fathimaaa/testbuilder#readme"
+}
