@@ -1,6 +1,6 @@
 {
   "name": "react-test-query-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a test npm package - Might contain bugs.",
   "main": "index.js",
   "scripts": {
