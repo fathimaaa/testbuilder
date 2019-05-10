@@ -1,4 +1,2 @@
 import QueryBuilder from './component/CustomQueryBuilder/QueryBuilder';
-module.exports = {
-    QueryBuilder
-};
+export default QueryBuilder;
