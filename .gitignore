@@ -1,0 +1,6 @@
+node_modules
+.idea
+*.log
+.tmp
+coverage
+/.DS_Store

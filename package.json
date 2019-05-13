@@ -1,6 +1,6 @@
 {
   "name": "react-test-query-builder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a test npm package - Might contain bugs.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/fathimaaa/testbuilder/issues"
   },
-  "homepage": "https://github.com/fathimaaa/testbuilder#readme"
+  "homepage": "https://github.com/fathimaaa/testbuilder#readme",
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  }
 }
